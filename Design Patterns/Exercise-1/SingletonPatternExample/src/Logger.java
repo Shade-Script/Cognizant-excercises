@@ -1,18 +1,16 @@
-package com.example;
-
 import java.time.LocalDateTime;
 
 public class Logger {
 
-    // Single instance, volatile so changes are visible across threads
+    // The single instance, volatile so changes are visible across threads
     private static volatile Logger instance;
 
-    // Private constructor to prevent instantiation from outside
+    // Private constructor prevents instantiation from outside
     private Logger() {
         System.out.println("Logger instance created.");
     }
 
-    // Thread-safe accessor
+    // Thread-safe accessor using double-checked locking
     public static Logger getInstance() {
         if (instance == null) {
             synchronized (Logger.class) {
