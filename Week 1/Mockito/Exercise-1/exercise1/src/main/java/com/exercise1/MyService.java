@@ -9,6 +9,6 @@ public class MyService {
     }
 
     public String fetchData() {
-        return api.fetchData();
+        return api.getData();
     }
 }

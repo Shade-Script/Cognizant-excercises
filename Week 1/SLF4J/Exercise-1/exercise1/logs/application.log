@@ -1,0 +1,30 @@
+2026-06-23 19:52:43.604 [com.cognizant.LoggingExample.main()] DEBUG com.cognizant.LoggingExample - This is a debug message - detailed information for developers
+2026-06-23 19:52:43.605 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - This is an info message - general informational message
+2026-06-23 19:52:43.606 [com.cognizant.LoggingExample.main()] WARN  com.cognizant.LoggingExample - This is a warning message
+2026-06-23 19:52:43.606 [com.cognizant.LoggingExample.main()] ERROR com.cognizant.LoggingExample - This is an error message
+2026-06-23 19:52:43.606 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - Starting application...
+2026-06-23 19:52:43.606 [com.cognizant.LoggingExample.main()] DEBUG com.cognizant.LoggingExample - Attempting to divide 10 by 0
+2026-06-23 19:52:43.608 [com.cognizant.LoggingExample.main()] ERROR com.cognizant.LoggingExample - An error occurred during division
+java.lang.ArithmeticException: / by zero
+	at com.cognizant.LoggingExample.performDivision(LoggingExample.java:33)
+	at com.cognizant.LoggingExample.main(LoggingExample.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 19:52:43.608 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - Application completed
+2026-06-23 19:54:57.420 [com.cognizant.LoggingExample.main()] DEBUG com.cognizant.LoggingExample - This is a debug message - detailed information for developers
+2026-06-23 19:54:57.422 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - This is an info message - general informational message
+2026-06-23 19:54:57.422 [com.cognizant.LoggingExample.main()] WARN  com.cognizant.LoggingExample - This is a warning message
+2026-06-23 19:54:57.422 [com.cognizant.LoggingExample.main()] ERROR com.cognizant.LoggingExample - This is an error message
+2026-06-23 19:54:57.422 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - Starting application...
+2026-06-23 19:54:57.423 [com.cognizant.LoggingExample.main()] DEBUG com.cognizant.LoggingExample - Attempting to divide 10 by 0
+2026-06-23 19:54:57.425 [com.cognizant.LoggingExample.main()] ERROR com.cognizant.LoggingExample - An error occurred during division
+java.lang.ArithmeticException: / by zero
+	at com.cognizant.LoggingExample.performDivision(LoggingExample.java:33)
+	at com.cognizant.LoggingExample.main(LoggingExample.java:23)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+	at org.codehaus.mojo.exec.ExecJavaMojo$1.run(ExecJavaMojo.java:282)
+	at java.base/java.lang.Thread.run(Thread.java:1474)
+2026-06-23 19:54:57.425 [com.cognizant.LoggingExample.main()] INFO  com.cognizant.LoggingExample - Application completed
