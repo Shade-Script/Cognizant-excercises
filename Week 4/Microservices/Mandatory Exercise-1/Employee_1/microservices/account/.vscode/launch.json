@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-AccountApplication<account>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.cognizant.account.AccountApplication",
+            "projectName": "account",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
