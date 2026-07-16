@@ -1,0 +1,11 @@
+.container{
+    display:flex;
+    justify-content:space-around;
+    margin-top:30px;
+}
+
+.section{
+    border-left:3px solid green;
+    padding-left:20px;
+    width:30%;
+}
